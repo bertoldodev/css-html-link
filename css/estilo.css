@@ -1,0 +1,40 @@
+body
+    {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109, 204, 150);
+    color: white;
+    }
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.profissoes
+{
+    margin: 1px;
+    background-color: rgb(224, 119, 154);
+    border: 5px inset white;
+    border-radius: 35px;
+    padding: 10px;
+    box-shadow: 5px 20px 10px green;
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+a
+{
+    text-decoration:underline;
+    color: rgb(105, 66, 168);
+
+}
